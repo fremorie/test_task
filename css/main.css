@@ -1,0 +1,32 @@
+@import url('card.css');
+@import url('header.css');
+@import url('content.css');
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.header {
+
+}
+
+.wrapper {
+  height: 670px;
+  width: 1280px;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+div {
+  border: 1px solid grey;
+}
+
+/*a, a:hover, a:default, a:active {
+  text-decoration: none;
+  color: white;
+}*/

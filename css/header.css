@@ -1,0 +1,58 @@
+.header {
+  height: 48px;
+  margin: 0 auto;
+  background-color: #FFFF;
+  padding-left: 20px;
+  /*display: flex;
+  justify-content: space-between;
+  align-items: baseline;*/
+}
+
+.logo {
+  float: left;
+}
+
+.logo__img {
+  width: 129.61px;
+  height: 19.75px;
+}
+
+.header__user {
+  width: 30.09px;
+  height: 30.17px;
+  margin: 0 auto;
+}
+
+.header__exit-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.header__userpic {
+  width: 30.09px;
+  height: 30.17px;
+}
+
+.username {
+  font-size: 18px;
+  line-height: 25px;
+  width: 309px;
+  height: 25px;
+}
+
+.header__button_exit {
+  color: #94A1A7;
+}
+
+.header__button_status {
+  background-color: #66C3E6;
+  color: #FFFF;
+  font-weight: bold;
+  font-size: 15px;
+  width: 104px;
+  height: 32px;
+  line-height: 28px;
+  border-radius: 5px;
+  text-align: center;
+  display: inline-block;
+}

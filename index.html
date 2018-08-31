@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+    <script src="js/app.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Учи.ру</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <div class="logo"><a href="#"><img class="logo__img" src="img/logo.svg"></a></div>
+        <div class="header__user">
+          <img class="header__userpic" src="img/userpic.svg">
+          Константин Константинопольский
+        </div>
+        <div class="header__button_status"><a href="#">Премиум</a></div>
+        <div class="header__button_exit">
+          <a href="#">Выйти</a>
+          <img class="header__exit-icon" src="img/exit.svg">
+        </div>
+      </div>
+      <div class="content">
+        <div class="content__header">
+          <div class="content__description">
+            <h1>Кто успел, тот учится дешевле</h1>
+            <p>Чем быстрее вы присоединитесь к акции, тем выгоднее будет цена.<br>
+              Первые 10 счастливчиков получат пакет за 90 рублей. Дальше - дороже.</p>
+            <p>Уже продано:</p>
+            <ul class="content__list">
+              <li>10 пакетов по 90 р</li>
+              <li>50 пакетов по 490 р</li>
+              <li>100 пакетов по 990 р</li>
+            </ul>
+            <footer class="content__footer">Акция действует с 30.12.17 по 08.01.18</footer>
+            <aside>
+              <p class="content__counter-legend">Осталось: <span id="numberOfPacks">79</span>/100 пакетов</p>
+              <div class="content__counter">
+                <span>0</span>
+                <span>7</span>
+                <span>9</span>
+              </div>
+              <div class="content__price_arrowed">
+                <div>990 Р</div>
+                <div>Текущая цена</div>
+              </div>
+              <div class="content__price">
+                <div>1490 Р</div>
+                <div>Следующая цена</div>
+              </div>
+            </aside>
+          </div>
+        </div>
+        <div class="content__cards">
+          <div class="card">
+            <h2>1 предмет в год</h2>
+            <div class="card__checkbox">
+              <div>
+                <input type="radio" id="math" name="one-subject" checked />
+                <label for="math">Математика</label>
+              </div>
+              <div>
+                <input type="radio" id="russian" name="one-subject" />
+                <label for="russian">Русский язык</label>
+              </div>
+              <div>
+                <input type="radio" id="english" name="one-subject" />
+                <label for="english">Английский язык</label>
+              </div>
+              <div>
+                <input type="radio" id="nature" name="one-subject" />
+                <label for="nature">Окружающий мир</label>
+              </div>
+            </div>
+            <p>К оплате: 1980 Р</p>
+            <a class="card__button" href="#">Купить</a>
+          </div>
+          <div class="card__primary">
+            <div class="discount">Скидка<br><span>38%</span></div>
+            <h2>Пакет предметов</h2>
+            <div class="checkbox">
+              <div>
+                <input type="checkbox" id="math" name="two-subjects"
+                       value="math" checked disabled/>
+                <label for="math">Математика</label>
+              </div>
+              <div>
+                <input type="checkbox" id="russian" name="two-subjects"
+                       value="russian" checked disabled/>
+                <label for="russian">Русский язык</label>
+              </div>
+              <div>
+                <input type="checkbox" id="english" name="two-subjects"
+                       value="english" checked disabled/>
+                <label for="english">Английский язык</label>
+              </div>
+              <div>
+                <input type="checkbox" id="nature" name="two-subjects"
+                       value="nature" checked disabled/>
+                <label for="nature">Окружающий мир</label>
+              </div>
+            </div>
+            <div class="present">Подарок "Шоколадки"</div>
+            <p>К оплате: 4900 Р</p>
+            <a class="card__button_primary" href="#">Купить</a>
+          </div>
+          <div class="card">
+            <h2>2 предмета в год</h2>
+            <div class="card__checkbox">
+              <div>
+                <input type="checkbox" id="math" name="two-subjects"
+                       value="math" checked />
+                <label for="math">Математика</label>
+              </div>
+              <div>
+                <input type="checkbox" id="russian" name="two-subjects"
+                       value="russian" checked />
+                <label for="russian">Русский язык</label>
+              </div>
+              <div>
+                <input type="checkbox" id="english" name="two-subjects"
+                       value="english" />
+                <label for="english">Английский язык</label>
+              </div>
+              <div>
+                <input type="checkbox" id="nature" name="two-subjects"
+                       value="nature" />
+                <label for="nature">Окружающий мир</label>
+              </div>
+            </div>
+            <p>К оплате: 3700 Р</p>
+            <a class="card__button" href="#">Купить</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
