@@ -1,0 +1,559 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+* {
+   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+/* HEADER */
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #E5E5E5;
+}
+
+.main {
+  width: 1028px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  width: inherit;
+  height: 48px;
+  background-color: #FFFF;
+  padding: 0 20px;
+  border-bottom: 1px solid #DCDCDC;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 129.61px;
+  height: 19.75px;
+}
+
+.header__middle {
+  display: flex;
+  align-items: center;
+}
+
+.username {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.userpic {
+  width: 30.09px;
+  height: 30.17px;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+}
+
+.button-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.button_exit {
+  font-weight: bold;
+  line-height: 20px;
+  color: #94A1A7;
+  margin-right: 7px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 28px;
+  display: inline-block;
+  text-decoration: none;
+  margin: 14px;
+}
+
+.button_status {
+  line-height: 28px;
+  text-decoration: none;
+  background-color: #66C3E6;
+  color: #FFFF;
+  font-weight: bold;
+  width: 104px;
+  height: 32px;
+  margin-right: 18px;
+}
+
+/* CONTENT */
+
+.content {
+  margin-top: 21px;
+  width: 988px;
+  height: 220px;
+  background-color: #6D40AA;
+  color: #FFF;
+  border-radius: 14px;
+  background-image: url("../img/Combined_Shape.svg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-clip: border-box;
+}
+
+.content__left {
+  float: left;
+  margin-left: 29px;
+  margin-top: 13px;
+}
+
+.content__right {
+  float: right;
+  margin-top: 19px;
+  margin-right: 50px;
+}
+
+.heading {
+  font-size: 28px;
+  line-hight: 38px;
+  height: 54px;
+  width: 465px;
+}
+
+.description {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  height: 44px;
+}
+
+.list-heading{
+  font-size: 15px;
+  line-height: 18px;
+}
+
+
+
+.content__list-item {
+  list-style-image: url("../img/list_bullet.svg");
+  font-size: 14px;
+}
+
+.content__footer {
+  font-size: 13px;
+  line-height: 16px;
+  margin-top: 22px;
+}
+
+.already-sold {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* COUNTER */
+
+.content__counter {
+  text-align: center;
+  width: 218px;
+  height: 60px;
+  border-radius: 8px;
+  border: 2px solid #FFF;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.digit {
+  display: flex;
+  height: 52px;
+  width: 68px; /* = 206 / 3*/
+  background-color: #FF5F6D;
+  font-size: 28px;
+  font-weight: bold;
+  line-hight: 37px;
+  align-items: center;
+  justify-content: center;
+}
+
+.digit_left {
+  border-radius: 4px 0 0 4px;
+}
+
+.digit_right {
+  border-radius: 0 4px 4px 0;
+}
+
+.next-price {
+  font-size: 16px;
+  line-height: 14px;
+  display: flex;
+  text-align: center;
+  margin-top: 13px;
+  margin-bottom: 1px;
+}
+
+.content__price {
+  font-weight: bold;
+  background-color: #63379E;
+  width: 117px;
+  height: 29px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content__price_arrowed {
+  background-color: #FF5F6D;
+  width: 120px;
+  clip-path: polygon(86% 0, 100% 50%, 86% 100%, 0 100%, 0 0);
+}
+
+.price_right {
+  position: relative;
+  left: -20px;
+  z-index: 1;
+}
+
+.price_left {
+  z-index: 2;
+}
+
+.next-price_ {
+  font-size: 15px;
+}
+
+.current-price_ {
+  font-size: 16px;
+}
+
+/* CARDS */
+
+.cards {
+  display: flex;
+  margin-top: -24px; /*content border-radius + card border-radius + card border*/
+}
+
+.card {
+  width: 318px;
+  height: 352px;
+  border: 2px solid #A5B4BB;
+  border-radius: 8px;
+  background-color: white;
+  text-align: center;
+  color: black;
+}
+
+.card__header {
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: normal;
+  border-bottom: 1px solid #C4C4C4;
+  width: 276px;
+  margin: 0 auto;
+  margin: 19px auto 0 20px;
+  padding: 0 0 14px 0;
+}
+
+.card__checkbox {
+  text-align: left;
+  border-bottom: 1px solid #C4C4C4;
+  padding: 17px 0 10px;
+  font-size: 15px;
+  line-height: 22px;
+  margin-left: 20px;
+  width: 276px;
+}
+
+.container {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  padding-left: 56px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-bottom: 13px;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 22px;
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    border: 2px solid #5EC3EA;
+    border-radius: 5px;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+    background-color: #5EC3EA;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: url("../img/check_icon.svg");
+    position: relative;
+    display: none;
+    left: 3px;
+    top: -4px;
+    width: 10px;
+    height: 8px;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.subject-image {
+  display: inline;
+  width: 30px;
+}
+
+.button {
+  color: #FFFF;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 28px;
+  display: inline-block;
+  text-decoration: none;
+  margin: 14px;
+}
+
+.button-purchase {
+  background-color: #66C3E6;
+  font-size: 17px;
+  width: 144px;
+  height: 40px;
+}
+
+.card__payment {
+  margin-top: 13px;
+  font-size: 15px;
+  line-height: 16px;
+}
+
+/* PRIMARY CARD */
+
+.card_primary {
+  width: 356px;
+  height: 433px;
+  border: 3px solid #FF5F6D;
+}
+
+.card__header {
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: normal;
+  border-bottom: 1px solid #C4C4C4;
+  width: 276px;
+  margin: 19px auto 0 auto;
+  padding: 0 0 14px 0;
+}
+
+.card__header_primary {
+  font-weight: bold;
+}
+
+.card__checkbox {
+  text-align: left;
+  border-bottom: 1px solid #C4C4C4;
+  padding: 17px 0 10px;
+  font-size: 15px;
+  line-height: 22px;
+  margin-left: 20px;
+  margin: 0 auto;
+  width: 276px;
+}
+
+.container {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  padding-left: 56px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-bottom: 13px;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 22px;
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    border: 2px solid #5EC3EA;
+    border-radius: 5px;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+    background-color: #5EC3EA;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.subject-image {
+  display: inline;
+  width: 30px;
+}
+
+.button {
+  color: #FFFF;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.button-purchase {
+  background-color: #66C3E6;
+  font-size: 17px;
+  width: 144px;
+  height: 40px;
+  margin: 14px auto;
+}
+
+.button-primary {
+  background-color: #FF5F6D;
+  width: 233.56px;
+  height: 28px;
+}
+
+.card__payment {
+  margin-top: 13px;
+  font-size: 15px;
+  line-height: 16px;
+}
+
+.card__payment_primary {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.gift {
+  color: #FFF;
+  background-color: #7D5B52;
+  width: 266px;
+  height: 26px;
+  border-radius: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 17px auto;
+  line-height: 18px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.badge {
+  position: relative;
+  top: -230px;
+  left: 280px;
+}
+
+.discount {
+  position: relative;
+  top: -220px;
+  left: 450px;
+}
+
+.discount-img {
+  width: 78px;
+  height: auto;
+}
+
+.discount-span {
+  font-weight: bold;
+  transform: rotate(25deg);
+  text-align: center;
+  position: relative;
+  top: 60px;
+  color: #FFF;
+}
+
+.card-wrapper {
+  /*width: 356px;
+  height: 433px;*/
+  /*margin-left: -200px;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -35px;
+  margin-right: -2px;
+  margin-left: -158px;/* - (badge.width + discount.width + card-wrapper.borderwidth)*/
+  z-index: 10;
+}
+
+.badge {
+  width: 78px;
+}
+
+.discount {
+  width: 78px;
+}
+
+.content-wrapper {
+  background-color: #fafafa;
+  width: 1028px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button_exit {
+  font-weight: bold;
+  line-height: 20px;
+  color: #94A1A7;
+  margin-right: 7px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 28px;
+  display: inline-block;
+  text-decoration: none;
+  margin: 14px;
+}
