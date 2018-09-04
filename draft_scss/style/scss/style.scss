@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+@import 'variables.scss';
+@import 'mixins.scss';
+
+// wrappers
+@import '../blocks/page/page.scss';
+@import '../blocks/wrapper/wrapper.scss';
+
+// button
+@import '../blocks/button/button.scss';
+@import '../blocks/button/_color/button_color_blue.scss';
+@import '../blocks/button/_color/button_color_red.scss';
+@import '../blocks/button/_color/button_color_grey.scss';
+
+// menu
+@import '../blocks/menu/menu.scss';
+@import '../blocks/menu/__controls/menu__controls.scss';
+@import '../blocks/menu/__exit/menu__exit.scss';
+@import '../blocks/menu/__logo/menu__logo.scss';
+@import '../blocks/menu/__status/menu__status.scss';
+@import '../blocks/menu/__user/menu__user.scss';
+@import '../blocks/menu/__username/menu__username.scss';
+@import '../blocks/menu/__userpic/menu__userpic.scss';
+
+//
+
+* {
+  font-family: $font-family;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}

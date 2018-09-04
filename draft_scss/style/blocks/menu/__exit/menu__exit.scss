@@ -1,0 +1,16 @@
+.menu__exit {
+  line-height: 20px;
+  text-align: left;
+  min-width: 53px;
+  min-height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.menu__exit::after {
+  content: url('../img/exit.svg');
+  margin-left: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <link href="style/style.css" rel="stylesheet">
+    <script src="js/main.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Учи.ру</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="page">
+
+        <div class="menu">
+            <a class="menu__logo" href="#"><img src="img/logo.svg"></a>
+          <div class="menu__user">
+            <img class="menu__userpic" src="img/userpic.svg">
+            <span class="menu__username">Константин Константинопольский</span>
+          </div>
+          <div class="menu__controls">
+            <a class="menu__status button button_color_blue"href="#">Премиум</a>
+            <a class="menu__exit button button_color_grey" href="#">Выйти</a>
+          </div>
+        </div>
+
+        <div class="promo">
+          <div class="promo__info">
+            <div class="promo__overview">
+              <h1 class="promo__title">Кто успел, тот учится дешевле</h1>
+              <p class="promo__description">Чем быстрее вы присоединитесь к акции, тем выгоднее будет цена.<br>
+                Первые 10 счастливчиков получат пакет за 90 рублей. Дальше - дороже.</p>
+              <div class="promo__sold">
+                <p class="list-heading flex-left">Уже продано:</p>
+                <ul class="promo__list flex-center">
+                  <li class="promo__list-item">10 пакетов по 90 р</li>
+                  <li class="promo__list-item">50 пакетов по 490 р</li>
+                </ul>
+                <ul class="promo__list flex-right">
+                  <li class="promo__list-item">100 пакетов по 990 р</li>
+                </ul>
+              </div>
+              <footer class="promo__period">Акция действует с 30.12.17 по 08.01.18</footer>
+            </div>
+
+            <aside class="promo__packages-info">
+              <p class="promo__packages-left">Осталось: <span id="numberOfPacks">79</span>/100 пакетов</p>
+              <div class="promo__counter counter">
+                <span class="counter__digit1">0</span>
+                <span class="counter__digit2">7</span>
+                <span class="counter__digit3">9</span>
+              </div>
+              <div class="promo__price-range price-range">
+                <div class="price-range__current">
+                  <div class="price-range__current-value">
+                    990&nbsp;₽
+                  </div>
+                  <div class="price-range__current-label">Текущая<br>цена</div>
+                </div>
+                <div class="price-range__next">
+                  <div class="price-range__next-value">
+                    1490&nbsp;₽
+                  </div>
+                  <div class="price-range__next-label">Следующая<br>цена</div>
+                </div>
+              </div>
+            </aside>
+
+          </div>
+
+          <div class="promo__options">
+            <div class="promo__option subscription-option">
+              <h2 class="subscription-option__title">1 предмет на год</h2>
+              <div class="subscription-option__subject-selection">
+                <label class="container">
+                  <div class="subject-image">
+                    <img class="subject-icon" src="img/subjects/math.svg">
+                  </div>
+                  Математика
+                  <input type="radio" checked="checked" name="radio">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container">
+                  <div class="subject-image">
+                    <img class="subject-icon" src="img/subjects/russian.svg">
+                  </div>
+                  Русский язык
+                  <input type="radio" name="radio">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container">
+                  <div class="subject-image">
+                    <img class="subject-icon" src="img/subjects/english.svg">
+                  </div>
+                  Английский язык
+                  <input type="radio" name="radio">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container">
+                  <div class="subject-image">
+                    <img class="subject-icon" src="img/subjects/nature.svg">
+                  </div>
+                  Окружающий мир
+                  <input type="radio" name="radio">
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <p class="subscription-option__total">К оплате: 1980&nbsp;₽</p>
+              <a class="subscription-option__buy button button_color_blue" href="#">Купить</a>
+            </div>
+
+            <div class="card-wrapper">
+              <div class="discount">
+                <div class="discount-span">
+                  <span>Скидка</span><br>
+                  <span>38%</span>
+                </div>
+                <img class="discount-img" src="img/discount.svg">
+              </div>
+              <img class="badge" src="img/Badge.svg">
+              <div class="promo__option subscription-option subscription-option_primary">
+                <h2 class="card__header card__header_primary">Пакет предметов</h2>
+                <div class="card__checkbox">
+                  <label class="container">
+                    <div class="subject-image">
+                      <img class="subject-icon" src="img/subjects/math.svg">
+                    </div>
+                    <input type="checkbox" checked disabled>Математика
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="container">
+                    <div class="subject-image">
+                      <img class="subject-icon" src="img/subjects/russian.svg">
+                    </div>
+                    <input type="checkbox" checked disabled>Русский язык
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="container">
+                    <div class="subject-image">
+                      <img class="subject-icon" src="img/subjects/english.svg">
+                    </div>
+                    <input type="checkbox" checked disabled>Английский язык
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="container">
+                    <div class="subject-image">
+                      <img class="subject-icon" src="img/subjects/nature.svg">
+                    </div>
+                    <input type="checkbox" checked disabled>Окружающий мир
+                    <span class="checkmark"></span>
+                  </label>
+                </div>
+                <div class="gift">
+                  <img class="gift-img" src="">
+                  Подарок "Шоколадки"
+                </div>
+                <p class="card__payment card__payment_primary">К оплате: 4900&nbsp;₽</p>
+                <a class="button button-purchase button-primary" href="#">Купить</a>
+              </div>
+            </div>
+
+            <div class="promo__option subscription-option">
+              <h2 class="subscription-option__title">1 предмет на год</h2>
+              <div class="subscription-option__subject-selection">
+                <label class="container">
+                  <div class="subject-image">
+                    <img class="subject-icon" src="img/subjects/math.svg">
+                  </div>
+                  Математика
+                  <input type="radio" checked="checked" name="radio">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container">
+                  <div class="subject-image">
+                    <img class="subject-icon" src="img/subjects/russian.svg">
+                  </div>
+                  Русский язык
+                  <input type="radio" name="radio">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container">
+                  <div class="subject-image">
+                    <img class="subject-icon" src="img/subjects/english.svg">
+                  </div>
+                  Английский язык
+                  <input type="radio" name="radio">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container">
+                  <div class="subject-image">
+                    <img class="subject-icon" src="img/subjects/nature.svg">
+                  </div>
+                  Окружающий мир
+                  <input type="radio" name="radio">
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <p class="subscription-option__total">К оплате: 1980&nbsp;₽</p>
+              <a class="subscription-option__buy button button_color_blue" href="#">Купить</a>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans");
+page {
+  width: 1028px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #E5E5E5;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 28px;
+  color: #FFF;
+  min-height: 28px;
+  min-width: 104px;
+}
+
+.button_color_blue {
+  background-color: #66C3E6;
+}
+
+.button_color_red {
+  background-color: #FF5F6D;
+}
+
+.button_color_grey {
+  color: #94A1A7;
+}
+
+.menu {
+  width: 1028px;
+  height: 48px;
+  background-color: #FFFF;
+  padding: 0 20px;
+  border-bottom: 1px solid #DCDCDC;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu__controls {
+  display: flex;
+  align-items: center;
+}
+
+.menu__exit {
+  line-height: 20px;
+  text-align: left;
+  min-width: 53px;
+  min-height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.menu__exit::after {
+  content: url("../img/exit.svg");
+  margin-left: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu__logo {
+  display: inline-block;
+  width: 129.61px;
+  height: 19.75px;
+}
+
+.menu__status {
+  min-width: 104px;
+  min-height: 30px;
+  margin-right: 18px;
+}
+
+.menu__user {
+  display: flex;
+  align-items: center;
+}
+
+.menu__username {
+  font-size: 18px;
+  line-height: 25px;
+  text-align: left;
+  font-weight: normal;
+  color: #000000;
+}
+
+.menu__userpic {
+  width: 30.09px;
+  height: 30.17px;
+}
+
+* {
+  font-family: "Noto Sans", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
