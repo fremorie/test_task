@@ -1,0 +1,9 @@
+.promo__info {
+  margin: $promo-margin;
+  width: $promo-width;
+  height: $promo-height;
+  color: #FFF;
+  border-radius: $promo-border-radius;
+  background: $promo-info-background-color url(blocks/promo/img/Combined_Shape.svg) no-repeat right top;
+  background-clip: border-box;
+}

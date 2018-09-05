@@ -1,4 +1,4 @@
 .menu__user {
-  display: flex;
-  align-items: center;
+  @include display-flex();
+  @include align-items(center);
 }

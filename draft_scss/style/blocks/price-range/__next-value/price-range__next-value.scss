@@ -1,0 +1,9 @@
+.price-range__next-value {
+  font-weight: bold;
+  background-color: $color-deep-purple;
+  width: 117px;
+  height: 29px;
+  @include display-flex();
+  @include justify-content(center);
+  @include align-items(center);
+}

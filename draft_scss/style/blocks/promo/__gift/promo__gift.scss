@@ -1,0 +1,19 @@
+.promo__gift {
+  color: #FFF;
+  background-color: $color-chocolate;
+  width: 266px;
+  height: 26px;
+  border-radius: 13px;
+  margin: 17px auto;
+  line-height: 18px;
+  font-size: 15px;
+  font-weight: bold;
+  @include display-flex();
+  @include justify-content(center);
+  @include align-items(center);
+}
+
+.promo__gift::before {
+  content: url("blocks/promo/img/chocolate_small.svg");
+  position: relative;
+}

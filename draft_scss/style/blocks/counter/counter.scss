@@ -1,0 +1,10 @@
+.counter {
+  text-align: center;
+  width: 218px;
+  height: 60px;
+  border-radius: $counter-border-radius;
+  border: 2px solid #FFF;
+  @include display-flex();
+  @include justify-content(space-around);
+  @include align-items(center);
+}

@@ -1,0 +1,7 @@
+.promo {
+  background-color: $promo-background-color;
+  width: $page-width;
+  @include display-flex();
+  @include  flex-direction-column();
+  @include align-items(center);
+}

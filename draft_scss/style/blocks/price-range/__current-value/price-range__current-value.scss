@@ -1,0 +1,10 @@
+.price-range__current-value {
+  background-color: $color-red;
+  width: 120px;
+  font-weight: bold;
+  height: 29px;
+  @include polygon((86% 0, 100% 50%, 86% 100%, 0 100%, 0 0));
+  @include display-flex();
+  @include justify-content(center);
+  @include align-items(center);
+}

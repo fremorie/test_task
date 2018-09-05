@@ -1,0 +1,20 @@
+.subscription-option__checkmark {
+  position: absolute;
+  top: 0;
+  left: 22px;
+  height: 20px;
+  width: 20px;
+  background-color: #fff;
+  border: 2px solid $color-light-blue;
+  border-radius: 5px;
+}
+
+.subscription-option__checkmark::after {
+  content: url("blocks/subscription-option/img/check_icon.svg");
+  position: relative;
+  display: none;
+  left: 3px;
+  top: -4px;
+  width: 10px;
+  height: 8px;
+}

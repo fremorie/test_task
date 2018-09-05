@@ -2,6 +2,7 @@
 
 @import 'variables.scss';
 @import 'mixins.scss';
+@import 'functions.scss';
 
 // wrappers
 @import '../blocks/page/page.scss';
@@ -23,11 +24,57 @@
 @import '../blocks/menu/__username/menu__username.scss';
 @import '../blocks/menu/__userpic/menu__userpic.scss';
 
-//
+// promo
+@import '../blocks/promo/promo.scss';
+@import '../blocks/promo/__info/promo__info.scss';
+@import '../blocks/promo/__packages-info/promo__packages-info.scss';
+@import '../blocks/promo/__options/promo__options.scss';
+@import '../blocks/promo/__overview/promo__overview.scss';
+@import '../blocks/promo/__packages-info/promo__packages-info.scss';
+@import '../blocks/promo/__title/promo__title.scss';
+@import '../blocks/promo/__description/promo__description.scss';
+@import '../blocks/promo/__list-item/promo__list-item.scss';
+@import '../blocks/promo/__list-heading/promo__list-heading.scss';
+@import '../blocks/promo/__sold/promo__sold.scss';
+@import '../blocks/promo/__period/promo__period.scss';
+@import '../blocks/promo/__packages-left/promo__packages-left.scss';
+@import '../blocks/promo/__price-range/promo__price-range.scss';
+@import '../blocks/promo/__option/_primary/promo__option_primary.scss';
+@import '../blocks/promo/__gift/promo__gift.scss';
+
+// counter
+@import '../blocks/counter/counter.scss';
+@import '../blocks/counter/__digit/counter__digit.scss';
+@import '../blocks/counter/__digit/_left/counter__digit_left.scss';
+@import '../blocks/counter/__digit/_right/counter__digit_right.scss';
+
+//subscription-option
+@import '../blocks/subscription-option/subscription-option.scss';
+@import '../blocks/subscription-option/__buy/subscription-option__buy.scss';
+@import '../blocks/subscription-option/__checkmark/subscription-option__checkmark.scss';
+@import '../blocks/subscription-option/__label/subscription-option__label.scss';
+@import '../blocks/subscription-option/__subject-selection/subscription-option__subject-selection.scss';
+@import '../blocks/subscription-option/__title/subscription-option__title.scss';
+@import '../blocks/subscription-option/__total/subscription-option__total.scss';
+@import '../blocks/subscription-option/_primary/subscription-option_primary';
+@import '../blocks/subject-icon/subject-icon.scss';
+@import '../blocks/subscription-option/__buy/_primary/subscription-option__buy_primary.scss';
+@import '../blocks/subscription-option/__total/_primary/subscription-option__total_primary.scss';
+@import '../blocks/subscription-option/__title/_primary/subscription-option__title_primary.scss';
+
+// price-range
+@import '../blocks/price-range/price-range.scss';
+@import '../blocks/price-range/__current/price-range__current.scss';
+@import '../blocks/price-range/__current-label/price-range__current-label.scss';
+@import '../blocks/price-range/__current-value/price-range__current-value.scss';
+@import '../blocks/price-range/__next/price-range__next.scss';
+@import '../blocks/price-range/__next-label/price-range__next-label.scss';
+@import '../blocks/price-range/__next-value/price-range__next-value.scss';
+
 
 * {
   font-family: $font-family;
-  box-sizing: border-box;
+  @include box-sizing(border-box);
   margin: 0;
   padding: 0;
 }

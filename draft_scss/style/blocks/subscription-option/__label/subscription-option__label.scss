@@ -1,0 +1,23 @@
+.subscription-option__label {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  padding-left: 56px;
+  margin-bottom: 13px;
+  @include user-select(none);
+}
+
+.subscription-option__label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+// Show the checkmark when checked
+.subscription-option__label input:checked ~ .subscription-option__checkmark::after {
+  display: block;
+}
+
+.subscription-option__label input:checked ~ .subscription-option__checkmark {
+  background-color: $color-light-blue;
+}

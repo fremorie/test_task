@@ -1,0 +1,3 @@
+@function discount-badge-left($container-width, $image-width) {
+  @return 287px - $container-width / 2 + $image-width / 2;
+}

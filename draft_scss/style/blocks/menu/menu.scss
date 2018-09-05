@@ -6,7 +6,7 @@ $color-grey: #DCDCDC;
   background-color: #FFFF;
   padding: 0 20px;
   border-bottom: 1px solid $color-grey;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  @include display-flex();
+  @include justify-content(space-between);
+  @include align-items(center);
 }

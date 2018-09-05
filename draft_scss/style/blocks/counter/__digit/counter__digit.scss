@@ -1,0 +1,12 @@
+.counter__digit {
+  height: 52px;
+  width: 68px;
+  background-color: $color-red;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 37px;
+  color: #FFFF;
+  @include display-flex();
+  @include justify-content(center);
+  @include align-items(center);
+}

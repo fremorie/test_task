@@ -309,7 +309,7 @@
 }
 
 /* When the radio button is checked, add a blue background */
-.container input:checked ~ .checkmark {
+input:checked ~ .checkmark {
     background-color: #5EC3EA;
 }
 
@@ -325,7 +325,7 @@
 }
 
 /* Show the checkmark when checked */
-.container input:checked ~ .checkmark:after {
+input:checked ~ .checkmark:after {
     display: block;
 }
 
@@ -423,12 +423,12 @@
 }
 
 /* When the radio button is checked, add a blue background */
-.container input:checked ~ .checkmark {
+input:checked ~ .checkmark {
     background-color: #5EC3EA;
 }
 
 /* Show the checkmark when checked */
-.container input:checked ~ .checkmark:after {
+input:checked ~ .checkmark:after {
     display: block;
 }
 

@@ -1,0 +1,18 @@
+.subscription-option_primary {
+  width: $option-primary-width;
+  height: $option-primary-height;
+  border: 3px solid $color-red;
+  margin-top: -35px;
+  margin-right: -2px;
+  margin-left: -2px;
+  z-index: 10;
+  @include box-shadow(0 0 10px 8px rgba(0, 0, 0, 0.1));
+}
+
+.subscription-option_primary::before {
+  content: url('blocks/subscription-option/img/Badge.svg');
+  position: relative;
+  width: 78.45px;
+  top: -39px;
+  left: 210px - 356px / 2 + 78.45px/2;
+}

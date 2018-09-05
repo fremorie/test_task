@@ -1,0 +1,8 @@
+.promo__option_primary::after {
+  content: url('../../img/discount.svg');
+  width: 78px;
+  height: 77px;
+  position: relative;
+  left: discount-badge-left($option-primary-width, 78px);
+  top: - ($option-primary-height + 77px / 4);
+}
